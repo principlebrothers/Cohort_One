@@ -6,59 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook</title>
     <!-- <link href="index.css" rel="stylesheet"/> -->
+    <style>
+
+      #form_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+      }
+    </style>
   </head>
   <body>
     <header>
-      <div>Logo</div>
-      <hr>
-      <img src="Ernest_profile2" alt="Ernest profile"/>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li>Project</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+      <div>
+        <!-- <img src="Ernest_profile2.svg" alt="Ernest logo" width="300px" /> -->
+        <video src="LECTURE4.mp4" controls width="200px"></video>
+      </div>
     </header>
 
     <main>
-      <section id="home" class="intro">
-        <h1>HOME</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
-          voluptatibus suscipit totam. Consequatur harum veritatis maiores
-          voluptas velit molestias repudiandae aspernatur. Perspiciatis enim
-          possimus velit. Sapiente fuga minima deserunt <a href="https://www.wikipedia.org/">Wikipedia</a> cupiditate.
-        </p>
+      <section id="portfolio">
+        <figure>
+          <img src="flyer.jpeg" alt="flyer" width="300px" />
+          <figcaption> flyer</figcaption>
+        </figure>
+        <div>
+          <img src="coverpage.png" alt="coverpage" width="200px" />
+        </div>
       </section>
-      <hr>
-
-      <section id="about">
-        <h1>ABOUT</h1>
-        <p>I have worked on several project such as</p>
-        <ol>
-          <li>
-            Space travel website
-          </li>
-          <li>portfolio</li>
-          <li>Chuch Dashboard</li>
-          <li>Twitter</li>
-        </ol>
+      <section id="tables_images">
+        <details>
+          Nana Addo D.
+          <summary>What is the name of Ghana president</summary>
+        </details>
+        <table>
+          <thead>Contact</thead>
+          <thead>Location</thead>
+          <thead>Address</thead>
+          <tbody>
+            <tr>
+              <td>Ernest</td>
+              <td>Demond</td>
+              <td>Tony</td>
+            </tr>
+            <tr>
+              <td>Valantine</td>
+              <td>Christmas</td>
+              <td>Tony</td>
+            </tr>
+            <tr>
+              <td>Frank</td>
+              <td>Lois</td>
+              <td>Father</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
-      <hr>
-
-      <section id="projects" class="intro">
-        <h1>PROJECTS</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat ipsam labore sapiente ullam, reprehenderit quis totam aperiam saepe laboriosam iure consequatur, dicta nulla excepturi, minima tenetur. Dignissimos fuga reprehenderit quis.
-        </p>
-      </section>
+      <form id="form_section">
+        <label for="name">Name</label>
+        <input type="name" placeholder="Enter your name" id='name' required/><br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter your email" required id="email"/>
+        <label for="datetime">Date</label>
+        <input type="datetime-local" required id="datetime"/><br>
+        <button type="submit">Submit</button>
+      </form>
     </main>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
     <a href="#">Back to top</a>
   </body>
 </html>
