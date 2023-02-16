@@ -1,8 +1,15 @@
-* {
-  background-color: blue;
-  color: whitesmoke;
+body {
+  background-color: Red;
 }
 
-.intro p{
-  color: violet;
+header {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+ol li {
+  color: white;
 }
