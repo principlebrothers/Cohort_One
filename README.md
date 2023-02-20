@@ -1,2 +1,2 @@
 # Cohort_One
-A repository for learning
+A repository for Training
