@@ -1,15 +1,22 @@
-body {
-  background-color: Red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-  background-color: black;
+  margin-bottom: 20px;
+  /* padding: top, right, buttom, left */
+}
+
+main {
+  background-color: #fff;
+  background: url(flyer.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
 }
 
 h1 {
-  color: white;
-}
-
-ol li {
-  color: white;
+  border: 3px dotted green;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
