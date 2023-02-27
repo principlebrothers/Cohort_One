@@ -4,19 +4,38 @@
   box-sizing: border-box;
 }
 
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
 header {
-  margin-bottom: 20px;
+  background-color: #000;
   /* padding: top, right, buttom, left */
+}
+
+header li {
+  color: #fff;
 }
 
 main {
   background-color: #fff;
-  background: url(flyer.jpeg) no-repeat center center fixed;
-  -webkit-background-size: cover;
+}
+
+div {
+  background-color: aqua;
+  height: 20px;
 }
 
 h1 {
-  border: 3px dotted green;
+  border: 3px solid green;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
+  color: #fff;
+}
+
+footer{
+  background-color: #000;
+  color: #fff;
 }
